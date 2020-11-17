@@ -19,34 +19,7 @@
 
         <button>Play/Pause</button>
     </main>
-
-    <script>
-        function MediaPlayer(config) {
-            this.media = config.item;
-        }
-
-        MediaPlayer.prototype.play = function () {
-            this.media.play();
-        };
-
-        MediaPlayer.prototype.pause = function () {
-            this.media.pause();
-        };
-
-        MediaPlayer.prototype.togglePlay = function () {
-            if (this.media.paused) {
-                this.play();
-            } else {
-                this.pause();
-            }
-        };
-
-        const video = document.querySelector('video');
-        const mP = new MediaPlayer({ item: video });
-
-        const btn = document.querySelector('button');
-        btn.onclick = () => mP.togglePlay();
-    </script>
+    <script type="module" src="/assets/index.js"></script>
 </body>
 
 </html>

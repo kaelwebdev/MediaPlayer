@@ -1,5 +1,5 @@
 {
-  "name": "MediaPlayer",
+  "name": "mediaplayer",
   "version": "1.0.0",
   "description": "improving a media player.",
   "main": "index.js",
