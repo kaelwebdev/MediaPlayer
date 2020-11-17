@@ -1,0 +1,24 @@
+{
+  "name": "MediaPlayer",
+  "version": "1.0.0",
+  "description": "improving a media player.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaelwebdev/MediaPlayer.git"
+  },
+  "keywords": [],
+  "author": "Carlos Daniel Cortez (@kaelwebdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelwebdev/MediaPlayer/issues"
+  },
+  "homepage": "https://github.com/kaelwebdev/MediaPlayer#readme"
+}
