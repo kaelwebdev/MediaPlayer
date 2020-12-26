@@ -4,5 +4,7 @@ import AutoPlay from './plugins/AutoPlay.js';
 const video = document.querySelector('video');
 const mP = new MediaPlayer({ item: video,  plugins: [new AutoPlay]});
 
-const btn = document.querySelector('button');
-btn.onclick = () => mP.togglePlay();
+const btn1 = document.querySelector('#playPause');
+const btn2 = document.querySelector('#muteUnmute');
+btn1.onclick = () => mP.togglePlay();
+btn2.onclick = () => mP.toggleMute();
