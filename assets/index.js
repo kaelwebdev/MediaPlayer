@@ -13,3 +13,9 @@ const btn1 = document.querySelector('#playPause');
 const btn2 = document.querySelector('#muteUnmute');
 btn1.onclick = () => mP.togglePlay();
 btn2.onclick = () => mP.toggleMute();
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').catch(error => {
+        console.log(error.message);
+    });
+}
