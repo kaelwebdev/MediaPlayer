@@ -1,5 +1,3 @@
-import { Interface } from "readline";
-
 interface ConfigObj {
     item: HTMLMediaElement,
     plugins?: Array<any>
@@ -61,12 +59,5 @@ class MediaPlayer {
         this.media.muted ? this.unmute() : this.mute();
     }
 }
-
-
-
-
-
-
-
 
 export default MediaPlayer;
